@@ -12,7 +12,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: const ColorScheme.light(
-          primary: Colors.orange,
+          primary: Colors.blue,
           brightness: Brightness.light,
         ),
       ),
