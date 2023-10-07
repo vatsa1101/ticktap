@@ -1,16 +1,26 @@
-# ticktap
+# TickTap
 
-A new Flutter project.
+TickTap is a Flutter app that provides a fun and interactive way to engage users by generating random numbers and challenging them to match the seconds part of the current timestamp. The app incorporates FlutterBloc for state management and Hive for efficient data storage and retrieval.
 
-## Getting Started
+## How to run the app
 
-This project is a starting point for a Flutter application.
+- Ensure you have the latest stable version of Flutter installed.
+- Clone the repository to your local machine.
+- Open the project in your preferred Flutter IDE.
+- Run the app on an emulator or physical device.
 
-A few resources to get you started if this is your first Flutter project:
+### Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Interaction:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Generate button is triggers the generation of a random number between 0 and 59.
+
+Success Message:
+
+- If the random number in matches the seconds part of the current timestamp, a success message is displayed.
+- If there is no match, the user is prompted to try again.
+
+Success Count:
+
+- The total number of successful attempts since the user installed the app is displayed on top.
+- Success count is stored and retrieved using Hive for persistent data.

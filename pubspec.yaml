@@ -1,5 +1,5 @@
 name: ticktap
-description: A new Flutter project.
+description: TickTap is a Flutter app that provides a fun and interactive way to engage users by generating random numbers and challenging them to match the seconds part of the current timestamp.
 publish_to: "none"
 
 version: 1.0.0+1
