@@ -9,4 +9,15 @@ abstract class HomeState extends Equatable {
 
 class HomeInitialState extends HomeState {}
 
-class EmptyHomeState extends HomeState {}
+class GeneratingRandomNumberState extends HomeState {}
+
+class RandomNumberGeneratedState extends HomeState {
+  final int number;
+  final bool success;
+
+  const RandomNumberGeneratedState(
+      {required this.number, required this.success});
+
+  @override
+  List<Object> get props => [number, success];
+}

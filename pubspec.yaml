@@ -26,8 +26,14 @@ dependencies:
   # Text
   auto_size_text: ^3.0.0
 
+  # Animation
+  flutter_animate: ^4.2.0+1
+
   # Widgets
   cupertino_icons: ^1.0.2
+
+  # Other
+  intl: ^0.18.1
 
 dev_dependencies:
   flutter_test:
